@@ -1,4 +1,6 @@
 body {
+    margin: 0;
+    padding: 0;
     font-family: 'Roboto Slab', serif;
     font-size: 15pt;
     line-height: 24pt;
@@ -6,3 +8,125 @@ body {
     color: black;
 }
 
+header{
+    margin: 53px 540px 230px 540px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+li {
+    list-style-type: none;
+}
+
+/* Intro */
+.intro-head{
+    padding: 20px auto 23px auto;
+    margin: 0px auto 10px auto;
+    padding-bottom: 20px;
+    font-size: 51pt;
+    line-height: 32pt;
+}
+
+.intro-latin{
+    margin: 21px auto 32px auto;
+    font-size: 16pt;
+    line-height: 26pt;
+}
+
+.buttons-order{
+    margin: 0px 3px 0px 3px;
+    width: 246px;
+    height: 66px;
+    border-radius:  5px;
+    background: #f4c32f;
+    font-family: 'Roboto Slab', serif;
+    font-size: 18pt;
+    line-height: 26pt;
+}
+
+.buttons-learn-more{
+    margin: 0px 3px 0px 3px;
+    width: 246px;
+    height: 66px;
+    border-radius:  5px;
+    background: white;
+    font-family: 'Roboto Slab', serif;
+    font-size: 18pt;
+    line-height: 26pt;
+}
+
+/*Intro */
+
+
+/*Services */
+
+.services-our{
+    margin: 220px auto 77px auto;
+    font-size: 38pt;
+    line-height: 26pt;
+}
+
+.services-headline{
+    font-size: 20pt;
+    line-height: 26pt;
+}
+
+
+.services-list{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 30px 20px;
+    background-color: white;
+    padding: 10px;
+}
+
+.service-images{
+    margin: 0px auto 25px auto;
+}
+
+.link{
+    font-size: 17pt;
+    line-height: 26pt;
+    font-family: 'Roboto Slab', bold;
+    margin-top: 75px;
+    margin-bottom: 75px;
+    color: #275fe0;
+}
+
+/*Services */
+
+/*Features */
+
+.features-our{
+    font-size: 38pt;
+    margin: 0px auto 46px auto;
+}
+
+.features-headline{
+    font-size: 20pt;
+    text-align: left;
+}
+
+.features-text{
+    font-size: 15pt;
+    line-height: 24pt;
+    text-align: left;
+}
+
+.features-list{
+    -moz-column-count: 3;
+    -webkit-column-count: 3;
+    column-count: 3;
+}
+/*Features */
+
+.main-footer{
+    font-size: 13pt;
+}
